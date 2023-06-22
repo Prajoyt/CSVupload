@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 /** ------------------ MAKING CONNECTION ------------------ **/
 
 // mongoose.connect('mongodb://127.0.0.1:27017/csvUploads');
-const DB = 'mongodb+srv://prajoyttarale3:tPcxpWLe1lqnlAUR@cluster0.ve4p5co.mongodb.net/mernStack?retryWrites=true&w=majority';
+const DB = 'mongodb+srv://prajoyttarale3:xnkgSnv1PaYF2TBi@cluster0.nagxkdb.mongodb.net/?retryWrites=true&w=majority'
 
 
 mongoose.connect(DB).then(()=>{
